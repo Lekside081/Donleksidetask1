@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-2">
+    <div class="mt-2 mb-4">
         <h1 class="text-red-400 text-2xl"># My HNG12 Journey and Sonder App Design</h1>
         <div class="text-xl mt-2">Starting HNG12 has been an exciting journey. My main goals for this internship include:</div>
 
@@ -14,8 +14,14 @@
         <p class="text-xl">✅ **Habit Tracker** - Show progress & streaks</p>
         
         <div class="mt-2">
-            <a href="/My daily habit.PNG"><p>[<span class="text-green-600">Home Page</span>] (<span class="text-blue-600 underline">Path to Home screen.png)</span></p></a>
+            <a href="/My daily habit.PNG"><p>[<span class="text-green-600">{{ name }}</span>] (<span class="text-blue-600 underline">{{ title }})</span></p></a>
+            <div class="basis-1/2 py-16">
+                <img :src="img">
+            </div>
             <a href="/My Habit tracker.PNG"><p>[<span class="text-green-600">Habit Tracker</span>] (<span class="text-blue-600 underline">path to tracker screen.png)</span></p></a>
+            <div class="basis-1/2 py-16">
+                <img :src="img2">
+            </div>
 
             <div class="mt-2">
                 <p class="text-red-400">This Link to website Code Below</p>
@@ -29,3 +35,10 @@
         <p>[<span class="text-green-600">Hire a UI Designer</span>] (<span class="text-blue-600 underline">https://hng.tech/hire/ui-designers)</span></p>
     </div>
 </template>
+
+<script setup>
+defineProps(
+   ['name', 'title', 'img', 'img2']
+)
+
+</script>
