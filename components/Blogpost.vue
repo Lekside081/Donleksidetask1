@@ -12,7 +12,9 @@
 
         <p class="text-xl mt-2">✅ **Home page** - User interact with their habits.</p>
         <p class="text-xl">✅ **Habit Tracker** - Show progress & streaks</p>
+        <p class="text-xl">✅ **Achromatic Color Palette** – Clean black, white, and gray tones</p>
         
+        <h1 class="text-red-400 text-2xl mt-2">### **Screenshots of My Design** </h1>
         <div class="mt-2">
             <a href="/My daily habit.PNG"><p>[<span class="text-green-600">{{ name }}</span>] (<span class="text-blue-600 underline">{{ title }})</span></p></a>
             <div class="basis-1/2 py-16">
@@ -29,6 +31,13 @@
             <a href="/HabitTracker"><p>[<span class="text-green-600">Habit Tracker</span>] (<span class="text-blue-600 underline">path to tracker screen)</span></p></a>
             </div>
         </div>
+
+        <h1 class="text-red-400 text-2xl mt-2">## 💻 Tech Stack</h1>
+        <div class="text-xl mt-2">I built this project using:</div>
+        <div class="text-xl">🔹 **Vue 3** – Component-based UI framework</div>
+        <div class="text-xl">🔹 **Tailwind CSS** – Fast, responsive styling</div>
+        <div class="text-xl">🔹 **GitHub** – Code versioning & collaboration</div>
+        <div class="text-xl mt-2">🔗 **View My GitHub Repo**: [<span class="text-green-400">GitHub Link Here</span>](https://github.com/your-repo-link)</div>
 
         <h1 class="text-red-400 text-2xl mt-2">## **Want to Hire a Skilled UI Designer?**</h1>
         <div class="text-xl mt-2">Check out HNG’s talented designers here:</div>
